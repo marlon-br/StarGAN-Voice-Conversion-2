@@ -2,7 +2,9 @@
 
 This is a pytorch implementation of the paper: [StarGAN-VC2:Rethinking Conditional Methods for StarGAN-Based Voice Conversion](https://arxiv.org/pdf/1907.12279.pdf).
 
-**The converted voice examples are in *converted directory*. The sound quality will improve if more training epochs are done.
+**The converted voice examples are in *converted directory*. The sound quality will improve if more training epochs (~200000) are done.
+
+** VCTK database has been used to train the model with 70 speakers. The convereted samples are a bit noisy because of VCTK data but it can be improved if othere clean databases are used.
 
 ## [Dependencies]
 - Python 3.5+
