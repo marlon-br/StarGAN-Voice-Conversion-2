@@ -2,7 +2,7 @@
 
 This is a pytorch implementation of the paper: [StarGAN-VC2:Rethinking Conditional Methods for StarGAN-Based Voice Conversion](https://arxiv.org/pdf/1907.12279.pdf).
 
-**The converted voice examples are in *converted directory*.
+**The converted voice examples are in *converted directory*. The sound quality will improve if more training epochs are done.
 
 ## [Dependencies]
 - Python 3.5+
@@ -91,7 +91,7 @@ convert.py --src_spk p262 --trg_spk p272 --resume_iters 210000
 
 ## [Network structure]
 
-![network](https://github.com/dipjyoti92/StarGAN-Voice-Conversion-2/network.png)
+![network](https://github.com/dipjyoti92/StarGAN-Voice-Conversion-2/blob/master/network.png)
 
 
 ## [Reference]
